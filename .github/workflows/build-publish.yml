@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
   # Trigger the workflow on pushes to the jon-updates branch
   push:
-    branches:
-      - "**"
+    # branches:
+    #   - "**"
     # Trigger the action when a tag is pushed (to any branch)
     tags:
       - "**"
